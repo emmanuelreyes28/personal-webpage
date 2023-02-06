@@ -4,9 +4,12 @@ import emmanuel from "../images/emmanuel copy.png";
 
 function Intro() {
   return (
-    <div className="container mx-auto px-8 flex">
-      <div className="w-1/2 h-full">
-        <p>
+    <div className="container mx-auto px-8 text-center w-1/2">
+      <div className="flex justify-center">
+        <img src={emmanuel} alt="Emmanuel portrait" className="w-72 pb-5" />
+      </div>
+      <div className="font-display leading-relaxed">
+        <p className="pb-2">
           Hello and welcome to my corner of the internet! I'm a Software
           Engineer with a passion for programming and staying up-to-date with
           the latest technologies. Before starting my career as a Software
@@ -15,7 +18,7 @@ function Intro() {
           school students the fundamentals of programming through exciting and
           interactive projects, and it was an incredibly rewarding experience.
         </p>
-        <p>
+        <p className="pb-2">
           I have experience with a variety of technlogies but the most recent
           stack I have learned is MERN. I learned MERN through the Complete 2022
           Web Development Bootcamp on Udemy instructed by Angela Yu. It was an
@@ -26,15 +29,11 @@ function Intro() {
           to be part of a company that supports and challenges me in this
           pursuit, and I am excited to see what the future holds.
         </p>
-        <p>
+        <p className="pb-2">
           When I'm not coding, I enjoy keeping active through exercise and
           spending quality time with friends at local breweries, I believe life
           is all about balance.
         </p>
-      </div>
-      <div className="w-1/2 h-full flex justify-center">
-        {/* <img src={image} alt="Emmanuel portrait" className="h-80" /> */}
-        <img src={emmanuel} alt="Emmanuel portrait" className="w-1/2" />
       </div>
     </div>
   );
