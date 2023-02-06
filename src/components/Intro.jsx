@@ -1,10 +1,11 @@
 import React from "react";
+import image from "../images/emmanuel.png";
+import emmanuel from "../images/emmanuel copy.png";
 
 function Intro() {
   return (
-    <div>
-      <div>
-        <h1>Hello</h1>
+    <div className="container mx-auto px-8 flex">
+      <div className="w-1/2 h-full">
         <p>
           Hello and welcome to my corner of the internet! I'm a Software
           Engineer with a passion for programming and staying up-to-date with
@@ -30,6 +31,10 @@ function Intro() {
           spending quality time with friends at local breweries, I believe life
           is all about balance.
         </p>
+      </div>
+      <div className="w-1/2 h-full flex justify-center">
+        {/* <img src={image} alt="Emmanuel portrait" className="h-80" /> */}
+        <img src={emmanuel} alt="Emmanuel portrait" className="w-1/2" />
       </div>
     </div>
   );
