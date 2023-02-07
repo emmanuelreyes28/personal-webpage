@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         display: ["Merriweather", "serif"],
+        greet: ["'Share Tech Mono'", "monospace"],
       },
     },
   },

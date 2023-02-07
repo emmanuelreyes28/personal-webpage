@@ -1,12 +1,15 @@
 import React from "react";
-import image from "../images/emmanuel.png";
-import emmanuel from "../images/emmanuel copy.png";
+import emmanuelPortrait from "../images/emmanuel copy.png";
 
 function Intro() {
   return (
     <div className="container mx-auto px-8 text-center w-1/2">
       <div className="flex justify-center">
-        <img src={emmanuel} alt="Emmanuel portrait" className="w-72 pb-5" />
+        <img
+          src={emmanuelPortrait}
+          alt="Emmanuel portrait"
+          className="w-72 pb-5"
+        />
       </div>
       <div className="font-display leading-relaxed">
         <p className="pb-2">
