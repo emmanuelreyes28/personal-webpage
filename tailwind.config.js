@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         display: ["Merriweather", "serif"],
         greet: ["'Share Tech Mono'", "monospace"],
+        heading: ["Montserrat", "sans-serif"],
       },
     },
   },
