@@ -8,6 +8,12 @@ module.exports = {
         greet: ["'Share Tech Mono'", "monospace"],
         heading: ["Montserrat", "sans-serif"],
       },
+      colors: {
+        "dark-blue": "#0081C9",
+        "light-blue": "#5BC0F8",
+        "sky-blue": "#86E5FF",
+        orange: "#FFC93C",
+      },
     },
   },
   plugins: [],

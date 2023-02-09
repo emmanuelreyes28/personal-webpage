@@ -11,6 +11,12 @@ function Contact() {
         Got a Software or Full Stack Engineer posisition available? I would love
         to discuss the opoprtunity! Feel free to take a copy of my resume 😄
       </p>
+      <a
+        className="text-xl font-heading text-white rounded-lg py-2 px-5 bg-light-blue hover:bg-sky-blue"
+        href="mailto:emmanuel.reyes28@gmail.com"
+      >
+        CONTACT ME
+      </a>
     </div>
   );
 }
