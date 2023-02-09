@@ -2,6 +2,7 @@ import Intro from "./Intro";
 import Greet from "./Greet";
 import Break from "./Break";
 import Skills from "./Skills";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Intro />
       <Break />
       <Skills />
+      <Break />
+      <Contact />
     </div>
   );
 }
