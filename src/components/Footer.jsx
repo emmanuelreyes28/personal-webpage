@@ -6,10 +6,16 @@ function Footer() {
   return (
     <div className="py-12">
       <div className="flex justify-center gap-x-8 text-2xl">
-        <a href="https://github.com/emmanuelreyes28">
+        <a
+          className=" hover:text-white"
+          href="https://github.com/emmanuelreyes28"
+        >
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/reyesej/">
+        <a
+          className=" hover:text-white"
+          href="https://www.linkedin.com/in/reyesej/"
+        >
           <FaLinkedin />
         </a>
       </div>

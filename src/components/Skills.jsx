@@ -11,7 +11,9 @@ function Skills() {
           src={bloggingImage}
           alt="blogging icon"
         />
-        <h3 className="font-heading font-bold text-lg my-4">Blog Web App</h3>
+        <h3 className="font-heading font-bold text-lg my-4 text-orange">
+          Blog Web App
+        </h3>
         <p className="font-display">
           This blog site was used using express, ejs, bodyParser, mongoose and
           lodash. In this project I learned how to create routes, send get

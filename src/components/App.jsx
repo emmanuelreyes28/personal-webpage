@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="App bg-gradient-to-b from-cyan-500 to-blue-500">
+    <div className="App bg-gradient-to-b from-sky-blue to-dark-blue">
       <Greet />
       <Intro />
       <Break />
