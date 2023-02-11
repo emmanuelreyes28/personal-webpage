@@ -14,6 +14,10 @@ function Skills() {
         <h3 className="font-heading font-bold text-lg my-4 text-orange">
           Blog Web App
         </h3>
+        <p className="font-semibold pb-1">
+          Backend: Express.js | MongoDB/Mongoose{" "}
+        </p>
+        <p className="font-semibold pb-1">Frontend: EJS</p>
         <p className="font-display">
           This blog site was used using express, ejs, bodyParser, mongoose and
           lodash. In this project I learned how to create routes, send get
