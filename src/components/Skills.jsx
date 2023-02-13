@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 import toDoListImage from "../images/to-do-list.png";
 import stickyNoteImage from "../images/sticky-notes.png";
 import newsLetterImage from "../images/newsletter.png";
@@ -15,9 +16,18 @@ function Skills() {
           src={whisperImage}
           alt="woman shh icon"
         />
-        <h3 className="font-heading font-bold text-lg my-4 text-orange">
-          Whisper Copycat Web App
-        </h3>
+        <div className="flex items-center gap-x-2.5 ">
+          <h3 className="font-heading font-bold text-lg my-4 text-orange">
+            Whisper Copycat Web App
+          </h3>
+          <a
+            className="text-xl hover:text-white"
+            href="https://github.com/emmanuelreyes28/Authentication-and-Security"
+            title="View Source Code"
+          >
+            <FaGithub />
+          </a>
+        </div>
         <p className="font-semibold pb-1">Backend: Express.js | MongoDB</p>
         <p className="font-semibold pb-1">
           Frontend: Embedded JavaScript Templates (EJS)
@@ -45,9 +55,18 @@ function Skills() {
           src={toDoListImage}
           alt="to-do list icon"
         />
-        <h3 className="font-heading font-bold text-lg my-4 text-orange">
-          To-Do Web App
-        </h3>
+        <div className="flex items-center gap-x-2.5">
+          <h3 className="font-heading font-bold text-lg my-4 text-orange">
+            To-Do Web App
+          </h3>
+          <a
+            className="text-xl hover:text-white"
+            href="https://github.com/emmanuelreyes28/To-Do-Web-App"
+            title="View Source Code"
+          >
+            <FaGithub />
+          </a>
+        </div>
         <p className="font-semibold pb-1">Backend: Express.js | MongoDB</p>
         <p className="font-semibold pb-1">
           Frontend: Embedded JavaScript Templates (EJS)
@@ -74,9 +93,18 @@ function Skills() {
           src={stickyNoteImage}
           alt="sticky note icon"
         />
-        <h3 className="font-heading font-bold text-lg my-4 text-orange">
-          Keeper Web App
-        </h3>
+        <div className="flex items-center gap-x-2.5">
+          <h3 className="font-heading font-bold text-lg my-4 text-orange">
+            Keeper Web App
+          </h3>
+          <a
+            className="text-xl hover:text-white"
+            href="https://github.com/emmanuelreyes28/Keeper-Web-App"
+            title="View Source Code"
+          >
+            <FaGithub />
+          </a>
+        </div>
         <p className="font-semibold pb-1">Frontend: React.js</p>
         <p className="pb-2">
           Through the note taking web app, users can easily create new entries
@@ -99,9 +127,18 @@ function Skills() {
           src={bloggingImage}
           alt="blogging icon"
         />
-        <h3 className="font-heading font-bold text-lg my-4 text-orange">
-          Blog Web App
-        </h3>
+        <div className="flex items-center gap-x-2.5">
+          <h3 className="font-heading font-bold text-lg my-4 text-orange">
+            Blog Web App
+          </h3>
+          <a
+            className="text-xl hover:text-white"
+            href="https://github.com/emmanuelreyes28/Blog-Web-App"
+            title="View Source Code"
+          >
+            <FaGithub />
+          </a>
+        </div>
         <p className="font-semibold pb-1">Backend: Express.js | MongoDB</p>
         <p className="font-semibold pb-1">
           Frontend: Embedded JavaScript Templates (EJS)

@@ -11,7 +11,7 @@ function Intro() {
           className="w-72 pb-5"
         />
       </div>
-      <div className="font-display text-center leading-relaxed tracking-wide w-1/2 pt-6 mx-auto">
+      <div className="text-base text-center leading-relaxed tracking-wide w-1/2 pt-6 mx-auto">
         <p className="pb-2">
           Hello and welcome to my corner of the internet! I'm a Software
           Engineer with a passion for programming and staying up-to-date with
