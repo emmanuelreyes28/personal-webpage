@@ -9,12 +9,16 @@ function Footer() {
         <a
           className=" hover:text-white"
           href="https://github.com/emmanuelreyes28"
+          target="_blank"
+          rel="noreferrer"
         >
           <FaGithub />
         </a>
         <a
           className=" hover:text-white"
           href="https://www.linkedin.com/in/reyesej/"
+          target="_blank"
+          rel="noreferrer"
         >
           <FaLinkedin />
         </a>

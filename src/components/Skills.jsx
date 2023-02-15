@@ -2,7 +2,6 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import toDoListImage from "../images/to-do-list.png";
 import stickyNoteImage from "../images/sticky-notes.png";
-import newsLetterImage from "../images/newsletter.png";
 import whisperImage from "../images/whisper.png";
 import bloggingImage from "../images/blogging.png";
 
@@ -24,6 +23,8 @@ function Skills() {
             className="text-xl hover:text-white"
             href="https://github.com/emmanuelreyes28/Authentication-and-Security"
             title="View Source Code"
+            target="_blank"
+            rel="noreferrer"
           >
             <FaGithub />
           </a>
@@ -63,6 +64,8 @@ function Skills() {
             className="text-xl hover:text-white"
             href="https://github.com/emmanuelreyes28/To-Do-Web-App"
             title="View Source Code"
+            target="_blank"
+            rel="noreferrer"
           >
             <FaGithub />
           </a>
@@ -82,6 +85,8 @@ function Skills() {
           <a
             className="underline"
             href="https://blooming-earth-22696.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
           >
             I welcome you to explore my web app!
           </a>
@@ -101,6 +106,8 @@ function Skills() {
             className="text-xl hover:text-white"
             href="https://github.com/emmanuelreyes28/Keeper-Web-App"
             title="View Source Code"
+            target="_blank"
+            rel="noreferrer"
           >
             <FaGithub />
           </a>
@@ -135,6 +142,8 @@ function Skills() {
             className="text-xl hover:text-white"
             href="https://github.com/emmanuelreyes28/Blog-Web-App"
             title="View Source Code"
+            target="_blank"
+            rel="noreferrer"
           >
             <FaGithub />
           </a>
