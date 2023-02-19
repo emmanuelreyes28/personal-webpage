@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../images/EMMANUEL_REYES_RESUME.pdf";
+import resume from "../images/Emmanuel_Reyes.pdf";
 
 function Contact() {
   return (
