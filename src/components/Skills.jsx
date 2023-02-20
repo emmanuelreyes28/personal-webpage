@@ -29,7 +29,9 @@ function Skills() {
             <FaGithub />
           </a>
         </div>
-        <p className="font-semibold pb-1">Backend: Express.js | MongoDB</p>
+        <p className="font-semibold pb-1">
+          Backend: Node.js | Express.js | MongoDB
+        </p>
         <p className="font-semibold pb-1">
           Frontend: Embedded JavaScript Templates (EJS)
         </p>
@@ -70,7 +72,9 @@ function Skills() {
             <FaGithub />
           </a>
         </div>
-        <p className="font-semibold pb-1">Backend: Express.js | MongoDB</p>
+        <p className="font-semibold pb-1">
+          Backend: Node.js | Express.js | MongoDB
+        </p>
         <p className="font-semibold pb-1">
           Frontend: Embedded JavaScript Templates (EJS)
         </p>
@@ -148,7 +152,9 @@ function Skills() {
             <FaGithub />
           </a>
         </div>
-        <p className="font-semibold pb-1">Backend: Express.js | MongoDB</p>
+        <p className="font-semibold pb-1">
+          Backend: Node.js | Express.js | MongoDB
+        </p>
         <p className="font-semibold pb-1">
           Frontend: Embedded JavaScript Templates (EJS)
         </p>
